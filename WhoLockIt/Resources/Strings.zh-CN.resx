@@ -49,6 +49,8 @@
   <data name="Unlock_Success" xml:space="preserve"><value>成功解锁 {0}/{1} 个资源。</value></data>
   <data name="Delete_Success" xml:space="preserve"><value>文件已成功删除。</value></data>
   <data name="Delete_Failed" xml:space="preserve"><value>删除失败，可能仍有句柄未释放。</value></data>
+  <data name="Copy_Results" xml:space="preserve"><value>已复制到剪贴板</value></data>
+  <data name="Scan_Timeout" xml:space="preserve"><value>正在扫描... (超时)</value></data>
 
   <data name="Topmost_On" xml:space="preserve"><value>窗口置顶: 开</value></data>
   <data name="Topmost_Off" xml:space="preserve"><value>窗口置顶: 关</value></data>

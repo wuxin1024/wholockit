@@ -49,6 +49,8 @@
   <data name="Unlock_Success" xml:space="preserve"><value>Successfully unlocked {0}/{1} resource(s).</value></data>
   <data name="Delete_Success" xml:space="preserve"><value>File deleted successfully.</value></data>
   <data name="Delete_Failed" xml:space="preserve"><value>Failed to delete file. Some handles may still be open.</value></data>
+  <data name="Copy_Results" xml:space="preserve"><value>Copied to clipboard</value></data>
+  <data name="Scan_Timeout" xml:space="preserve"><value>Scanning... (timeout)</value></data>
 
   <data name="Topmost_On" xml:space="preserve"><value>Topmost: ON</value></data>
   <data name="Topmost_Off" xml:space="preserve"><value>Topmost: OFF</value></data>

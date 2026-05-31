@@ -149,7 +149,7 @@ public class MainViewModel : INotifyPropertyChanged
         }
         catch (OperationCanceledException)
         {
-            StatusText = LocalizationService.Instance["Status_Scanning"] + " (timeout)";
+            StatusText = LocalizationService.Instance["Scan_Timeout"];
         }
         catch (Exception ex)
         {
@@ -248,7 +248,7 @@ public class MainViewModel : INotifyPropertyChanged
         var text = string.Join(Environment.NewLine,
             Locks.Select(l => $"{l.ProcessName}\tPID:{l.Pid}\t{l.LockType}\t{l.Source}"));
         Clipboard.SetText(text);
-        StatusText = "Copied";
+        StatusText = LocalizationService.Instance["Copy_Results"];
     }
 
     private void ToggleContextMenu()

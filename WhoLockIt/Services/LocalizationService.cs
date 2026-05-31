@@ -1,10 +1,11 @@
+using System.ComponentModel;
 using System.Globalization;
 using System.IO;
 using System.Resources;
 
 namespace WhoLockIt.Services;
 
-public class LocalizationService
+public class LocalizationService : INotifyPropertyChanged
 {
     private static LocalizationService? _instance;
     public static LocalizationService Instance => _instance ??= new();
@@ -13,6 +14,7 @@ public class LocalizationService
     private CultureInfo _currentCulture;
 
     public event Action? CultureChanged;
+    public event PropertyChangedEventHandler? PropertyChanged;
 
     private LocalizationService()
     {
@@ -42,6 +44,7 @@ public class LocalizationService
                 CultureInfo.CurrentCulture = value;
                 SaveCulture(value.Name);
                 CultureChanged?.Invoke();
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Item[]"));
             }
         }
     }
