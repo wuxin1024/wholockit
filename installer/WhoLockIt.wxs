@@ -1,0 +1,52 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+
+  <Package Name="WhoLockIt"
+           Manufacturer="wuxin1024"
+           Version="1.0.0"
+           UpgradeCode="A1B2C3D4-E5F6-7890-ABCD-EF1234567890"
+           Scope="perMachine"
+           Language="1033"
+           Codepage="1252">
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version is already installed." />
+
+    <MediaTemplate EmbedCab="yes" />
+
+    <ui:WixUI Id="WixUI_InstallDir" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR" />
+
+    <StandardDirectory Id="ProgramFiles6432Folder">
+      <Directory Id="INSTALLDIR" Name="WhoLockIt">
+        <Component Id="MainExecutable" Guid="B1B2C3D4-E5F6-7890-ABCD-EF1234567891" Bitness="always64">
+          <File Id="WhoLockItExe" Source="..\publish\WhoLockIt.exe" KeyPath="yes" />
+          <File Id="WhoLockItDll" Source="..\publish\WhoLockIt.dll" />
+          <File Id="WhoLockItDepsJson" Source="..\publish\WhoLockIt.deps.json" />
+          <File Id="WhoLockItRuntimeConfig" Source="..\publish\WhoLockIt.runtimeconfig.json" />
+          <!-- Note: .NET 10 Desktop Runtime required, download from https://dotnet.microsoft.com/en-us/download/dotnet/10.0 -->
+
+          <Shortcut Id="StartMenuShortcut"
+                    Name="WhoLockIt"
+                    Directory="ProgramMenuDir"
+                    WorkingDirectory="INSTALLDIR"
+                    Advertise="no" />
+
+          <Shortcut Id="DesktopShortcut"
+                    Name="WhoLockIt"
+                    Directory="DesktopFolder"
+                    WorkingDirectory="INSTALLDIR"
+                    Advertise="no" />
+        </Component>
+      </Directory>
+    </StandardDirectory>
+
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="ProgramMenuDir" Name="WhoLockIt" />
+    </StandardDirectory>
+
+    <Feature Id="Main" Title="WhoLockIt" Level="1">
+      <ComponentRef Id="MainExecutable" />
+    </Feature>
+
+  </Package>
+</Wix>

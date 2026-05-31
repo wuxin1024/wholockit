@@ -10,6 +10,9 @@ obj/
 
 ## publish output (we build from source)
 publish/
+publish_installer/
+*.msi
+*.zip
 
 ## IDE
 .vs/

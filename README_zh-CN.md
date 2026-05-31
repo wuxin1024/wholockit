@@ -23,7 +23,11 @@ Windows 桌面工具，帮你找出哪个进程占用了你的文件或文件夹
 
 ## 快速开始
 
-从 [Releases](../../releases) 下载最新版本，解压后运行 `WhoLockIt.exe`。
+从 [Releases](../../releases) 下载最新版本。
+
+**方式一：安装包** — 运行 `WhoLockIt_Setup.msi` 安装（开始菜单 + 桌面快捷方式）。
+
+**方式二：便携版** — 解压 `WhoLockIt_vX.X.X.zip`，直接运行 `WhoLockIt.exe`。
 
 ### 从源码编译
 

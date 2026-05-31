@@ -23,7 +23,11 @@ A Windows desktop tool to find out which process is locking your file or folder.
 
 ## Quick Start
 
-Download the latest release from [Releases](../../releases), unzip, and run `WhoLockIt.exe`.
+Download the latest release from [Releases](../../releases).
+
+**Option 1: Installer** — Run `WhoLockIt_Setup.msi` to install (Start Menu + Desktop shortcuts).
+
+**Option 2: Portable** — Unzip `WhoLockIt_vX.X.X.zip` and run `WhoLockIt.exe` directly.
 
 ### Build from Source
 
