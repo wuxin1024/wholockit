@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="AppTitle" xml:space="preserve"><value>WhoLockIt</value></data>
+  <data name="LanguageSelector_Title" xml:space="preserve"><value>Language / 语言</value></data>
+  <data name="LanguageSelector_Prompt" xml:space="preserve"><value>Choose your language / 选择语言</value></data>
+  <data name="LanguageSelector_Note" xml:space="preserve"><value>You can change later in the menu / 可以之后在菜单中更改</value></data>
+
+  <data name="DragDrop_Hint" xml:space="preserve"><value>Drag file or folder here, or paste path</value></data>
+  <data name="DragDrop_Active" xml:space="preserve"><value>Drop to scan</value></data>
+
+  <data name="Scan_Button" xml:space="preserve"><value>Scan</value></data>
+  <data name="UnlockSelected_Button" xml:space="preserve"><value>Unlock Selected</value></data>
+  <data name="UnlockAll_Button" xml:space="preserve"><value>Unlock All</value></data>
+  <data name="UnlockAllAndDelete_Button" xml:space="preserve"><value>Unlock All &amp; Delete</value></data>
+  <data name="CopyResults_Button" xml:space="preserve"><value>Copy Results</value></data>
+
+  <data name="Column_Process" xml:space="preserve"><value>Process</value></data>
+  <data name="Column_PID" xml:space="preserve"><value>PID</value></data>
+  <data name="Column_Type" xml:space="preserve"><value>Type</value></data>
+  <data name="Column_Source" xml:space="preserve"><value>Source</value></data>
+
+  <data name="Status_Ready" xml:space="preserve"><value>Ready. Enter a file path to scan.</value></data>
+  <data name="Status_Scanning" xml:space="preserve"><value>Scanning...</value></data>
+  <data name="Status_Found" xml:space="preserve"><value>Found {0} locking process(es) in {1:F1}s</value></data>
+  <data name="Status_None" xml:space="preserve"><value>No locking process found. File may not be in use.</value></data>
+  <data name="Status_Error" xml:space="preserve"><value>Scan error: {0}</value></data>
+
+  <data name="ContextMenu_Install" xml:space="preserve"><value>Add context menu</value></data>
+  <data name="ContextMenu_Remove" xml:space="preserve"><value>Remove context menu</value></data>
+  <data name="ContextMenu_Installed" xml:space="preserve"><value>Context menu installed</value></data>
+  <data name="ContextMenu_Removed" xml:space="preserve"><value>Context menu removed</value></data>
+
+  <data name="Confirm_UnlockSelected_Title" xml:space="preserve"><value>Unlock File</value></data>
+  <data name="Confirm_UnlockSelected_Message" xml:space="preserve"><value>Close handle from {0} (PID:{1})? This may cause data loss for that process.</value></data>
+  <data name="Confirm_UnlockAll_Title" xml:space="preserve"><value>Unlock All</value></data>
+  <data name="Confirm_UnlockAll_Message" xml:space="preserve"><value>Close all {0} handle(s)? This may cause data loss for those processes.</value></data>
+  <data name="Confirm_UnlockAllAndDelete_Title" xml:space="preserve"><value>Unlock All and Delete</value></data>
+  <data name="Confirm_UnlockAllAndDelete_Message" xml:space="preserve"><value>Close all {0} handle(s) and delete the file/folder? This cannot be undone.</value></data>
+  <data name="Confirm_Yes" xml:space="preserve"><value>Yes</value></data>
+  <data name="Confirm_No" xml:space="preserve"><value>No</value></data>
+
+  <data name="Menu_Language" xml:space="preserve"><value>Language</value></data>
+  <data name="Menu_AdminWarning" xml:space="preserve"><value>This program requires Administrator privileges to scan and unlock file handles.</value></data>
+  <data name="Unlock_Success" xml:space="preserve"><value>Successfully unlocked {0}/{1} resource(s).</value></data>
+  <data name="Delete_Success" xml:space="preserve"><value>File deleted successfully.</value></data>
+  <data name="Delete_Failed" xml:space="preserve"><value>Failed to delete file. Some handles may still be open.</value></data>
+
+  <data name="Topmost_On" xml:space="preserve"><value>Topmost: ON</value></data>
+  <data name="Topmost_Off" xml:space="preserve"><value>Topmost: OFF</value></data>
+  <data name="Language_Toggle" xml:space="preserve"><value>简体中文</value></data>
+</root>

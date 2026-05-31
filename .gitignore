@@ -1,0 +1,21 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+
+## publish output (we build from source)
+publish/
+
+## IDE
+.vs/
+.idea/
+*.DotSettings.user
+
+## OS
+Thumbs.db
+Desktop.ini

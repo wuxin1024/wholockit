@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="AppTitle" xml:space="preserve"><value>WhoLockIt</value></data>
+  <data name="LanguageSelector_Title" xml:space="preserve"><value>Language / 语言</value></data>
+  <data name="LanguageSelector_Prompt" xml:space="preserve"><value>选择语言 / Choose your language</value></data>
+  <data name="LanguageSelector_Note" xml:space="preserve"><value>之后可在菜单中更改 / Can be changed later</value></data>
+
+  <data name="DragDrop_Hint" xml:space="preserve"><value>拖拽文件或文件夹到此处，或粘贴路径</value></data>
+  <data name="DragDrop_Active" xml:space="preserve"><value>松开以扫描</value></data>
+
+  <data name="Scan_Button" xml:space="preserve"><value>扫描</value></data>
+  <data name="UnlockSelected_Button" xml:space="preserve"><value>解锁选中</value></data>
+  <data name="UnlockAll_Button" xml:space="preserve"><value>解锁全部</value></data>
+  <data name="UnlockAllAndDelete_Button" xml:space="preserve"><value>解锁全部并删除</value></data>
+  <data name="CopyResults_Button" xml:space="preserve"><value>复制结果</value></data>
+
+  <data name="Column_Process" xml:space="preserve"><value>进程</value></data>
+  <data name="Column_PID" xml:space="preserve"><value>PID</value></data>
+  <data name="Column_Type" xml:space="preserve"><value>类型</value></data>
+  <data name="Column_Source" xml:space="preserve"><value>来源</value></data>
+
+  <data name="Status_Ready" xml:space="preserve"><value>就绪。输入文件路径开始扫描。</value></data>
+  <data name="Status_Scanning" xml:space="preserve"><value>正在扫描...</value></data>
+  <data name="Status_Found" xml:space="preserve"><value>找到 {0} 个占用进程，耗时 {1:F1}s</value></data>
+  <data name="Status_None" xml:space="preserve"><value>未找到占用进程。文件可能未被使用。</value></data>
+  <data name="Status_Error" xml:space="preserve"><value>扫描失败: {0}</value></data>
+
+  <data name="ContextMenu_Install" xml:space="preserve"><value>注入右键菜单</value></data>
+  <data name="ContextMenu_Remove" xml:space="preserve"><value>移除右键菜单</value></data>
+  <data name="ContextMenu_Installed" xml:space="preserve"><value>右键菜单已注入</value></data>
+  <data name="ContextMenu_Removed" xml:space="preserve"><value>右键菜单已移除</value></data>
+
+  <data name="Confirm_UnlockSelected_Title" xml:space="preserve"><value>解锁文件</value></data>
+  <data name="Confirm_UnlockSelected_Message" xml:space="preserve"><value>关闭 {0} (PID:{1}) 的句柄？可能导致该进程数据丢失。</value></data>
+  <data name="Confirm_UnlockAll_Title" xml:space="preserve"><value>解锁全部</value></data>
+  <data name="Confirm_UnlockAll_Message" xml:space="preserve"><value>关闭全部 {0} 个句柄？可能导致进程数据丢失。</value></data>
+  <data name="Confirm_UnlockAllAndDelete_Title" xml:space="preserve"><value>解锁全部并删除</value></data>
+  <data name="Confirm_UnlockAllAndDelete_Message" xml:space="preserve"><value>关闭全部 {0} 个句柄并删除文件/文件夹？此操作不可撤销。</value></data>
+  <data name="Confirm_Yes" xml:space="preserve"><value>确认</value></data>
+  <data name="Confirm_No" xml:space="preserve"><value>取消</value></data>
+
+  <data name="Menu_Language" xml:space="preserve"><value>语言</value></data>
+  <data name="Menu_AdminWarning" xml:space="preserve"><value>本程序需要管理员权限才能扫描和解锁文件句柄。</value></data>
+  <data name="Unlock_Success" xml:space="preserve"><value>成功解锁 {0}/{1} 个资源。</value></data>
+  <data name="Delete_Success" xml:space="preserve"><value>文件已成功删除。</value></data>
+  <data name="Delete_Failed" xml:space="preserve"><value>删除失败，可能仍有句柄未释放。</value></data>
+
+  <data name="Topmost_On" xml:space="preserve"><value>窗口置顶: 开</value></data>
+  <data name="Topmost_Off" xml:space="preserve"><value>窗口置顶: 关</value></data>
+  <data name="Language_Toggle" xml:space="preserve"><value>English</value></data>
+</root>
